@@ -22,15 +22,15 @@
   <meta name="twitter:image" content="https://cinnamoneight26.github.io/vocawizquiz/image.png">
   <meta name="twitter:domain" content="https://cinnamoneight26.github.io/vocawizquiz/image.png">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4331956626091866"
-  crossorigin="anonymous"></script>
-  <script type="module" crossorigin src="./assets/index-17e4df99.js"></script>
+    crossorigin="anonymous"></script>
+  <script type="module" crossorigin src="./assets/index-b4eef636.js"></script>
   <link rel="stylesheet" href="./assets/index-b86033e6.css">
 </head>
 
 <body>
   <div id="app"></div>
-  <div id="divadsensedisplaynone" :style="{display:'none'}">
-    <!-- <amp-ad width="100vw" height="10vh"
+  <!-- <div id="divadsensedisplaynone" :style="{display:'none'}"> -->
+  <!-- <amp-ad width="100vw" height="10vh"
         type="adsense"
         data-ad-client="ca-pub-4331956626091866"
         data-ad-slot="3457019301"
@@ -39,15 +39,24 @@
       <div overflow=""></div>
     </amp-ad> -->
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4331956626091866"
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4331956626091866"
       crossorigin="anonymous"></script>
     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4331956626091866" data-ad-slot="3457019301"
       data-ad-format="auto" data-full-width-responsive="true"></ins>
     <script>
       window.onload = function () {
         (adsbygoogle = window.adsbygoogle || []).push({});
-      }    </script>
-  </div>
+      }    </script> -->
+  <script>
+    window['addAds'] = function () {
+      let chlid = document.getElementsByClassName('adsItem')
+
+      for (let index = 0; index < chlid.length; index++) {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      }
+    }
+  </script>
+  <!-- </div> -->
   
 
 </body>
